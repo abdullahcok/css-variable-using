@@ -1,0 +1,45 @@
+:root{
+  --theme-color: #218179;
+  --bg-color: #007599;
+  --link-color: #fff;
+  --nav-bg-color: #2d2d2d;
+}
+
+body{
+    margin: 0;
+    font-family: Arial;
+    background: var(--theme-color);
+}
+
+.pick span{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+nav{
+  background: var(--nav-bg-color);
+}
+nav a{
+  color:var(--link-color);
+  text-decoration: none;
+}
+nav.main-nav ul{
+  width: 100%;
+  margin: 20px auto;
+  list-style-type: none;
+  display: inline-grid;
+  grid-template-columns: 0.3fr 0.3fr 0.3fr 0.3fr;
+  padding: 0;
+  text-align: center;
+}
+
+.banner{
+    background: var(--bg-color);
+    color: var(--link-color);
+    font-size: 1.6em;
+    text-align: center;
+    padding: 100px 0 160px;
+}
